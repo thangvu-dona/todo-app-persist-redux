@@ -1,8 +1,18 @@
-# React + Vite
+# TodoApp with React + Vite + RTK + persist-redux
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+App
+|-TodoList
+| |- Add Todo
+| |- Render TodoList
+|
+|-Filters
+| |- SearchText
+| |- StatusChange
+| |- PriorityChange
+|---------------------
 
-Currently, two official plugins are available:
+- use `redux-toolkit` for states management.
+- usi `redux-persist` for keep data(todoList) on localStorage for avoid to loose data when reload page.
+- use UI `antd`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Happy Coding 🚀🎉🚀
